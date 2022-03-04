@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5;
+    
+}
+
+.kontajner {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box; 
+    
+}
+body{
+    margin: 0px;
+    background-color: #B3C5D7;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center;
+    background-image: url(../images/pen-4337524.jpg);
+    background-position: center;
+}
+
+
+
+.logo {
+    width: 60px;
+    cursor: pointer;
+    float: left;
+
+    margin: 20px;
+    margin-bottom: 15px;
+}
+h1{
+    margin-left: 25px;
+    color: azure;
+    font-size: 50px;
+}
+
+.menu{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.navigacne_menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/menu_back.jpg); 
+    top: 0px;
+    position: fixed;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 2%;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    cursor: pointer;
+}
+.onas{color: #ffd613}
+.onas:hover{
+    color: azure;
+}
+.menu1:hover{
+        color:#ffd613 ;
+}
+
+
+
+/*.banery{
+    margin-top: -260px;
+}*/
+
+.akcia_baner{
+    width: 38%; 
+    margin-top: 130px;
+    margin-left: 61.2%;
+    margin-right: 10px; 
+}
+.akcia_baner:hover{
+    transform: scale(1.005);
+}
+.doprava_baner{
+    width: 38%;
+    margin-left: 61.2%;
+    margin-top: 10px;
+    height: 165px;  
+}
+.doprava_baner:hover{
+    transform: scale(1.005);
+}
+
+.zlava_nadpis{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+span{
+    color: rgb(221, 52, 0);
+    background-color: none;
+}
+
+
+.akcia{
+    background-color: azure;
+    width: 900px;
+    height: 450px;
+    margin-left: 20px;
+    border: 2px solid red;
+    margin-top: -450px;
+}
+
+.klavesnica_logitech{
+   /* background-color: rgb(115, 146, 183);*/
+    width: 210px;
+    height: 280px;
+    margin-left: 150px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer; 
+    transition: transform 0.2s;
+}
+.klavesnica_logitech_foto{
+    height: 150px;
+    margin-left: 5px;
+}
+.klavesnica_logitech_text{
+    text-align: center;
+}
+.klavesnica_logitech_cena{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    text-decoration: line-through #b0081c;
+}
+.klavesnica_logitech_nova_cena{
+    text-align: center;
+    font-size: 25px;
+    transition: color 0.7;
+    color: #b0081c;
+}
+.klavesnica_logitech:hover{
+    transform: scale(1.1);
+    
+}
+
+.samsung_monitor{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .samsung_monitor_foto{
+    height: 150px;
+    margin-left: 30px;
+     
+}
+ .samsung_monitor_text{
+    text-align: center;
+}
+ .samsung_monitor_cena{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;
+    text-decoration: line-through #b0081c;
+}
+ .samsung_monitor_nova_cena{
+    text-align: center;
+    font-size: 25px;
+    color: #b0081c;
+}
+.samsung_monitor:hover{
+    transform: scale(1.1);
+   
+}
+
+
+.AOC_monitor{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .AOC_monitor_foto{
+    height: 150px;
+    margin-left: 30px;   
+}
+ .AOC_monitor_text{
+    text-align: center;
+}
+ .AOC_monitor_cena{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;
+    text-decoration: line-through #b0081c;
+}
+ .AOC_monitor_nova_cena{
+    text-align: center;
+    font-size: 25px;
+    color: #b0081c;
+}
+.AOC_monitor:hover{
+    transform: scale(1.1);
+    
+}
+
+.produkty{
+    display: flex;
+    margin-left: -75px;
+    
+}
+.button_akciove_produkty{
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+}
+.akcia_button{
+    height: 50px;
+    width: 780px;
+    margin-left: 60px;
+    background-color: #b0081c;
+ 
+}
+
+.A1{
+    text-decoration: none;
+    color:white ;
+}
+button{
+    color: azure;
+    background-color: transparent;
+    border: 1px solid azure;
+    transition: 0.2s ;
+    cursor: pointer;
+    font-size: large;
+}
+button:hover{
+    color: rgb(182, 182, 182);
+}
+
+
+
+.ostatne_nazov{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: black;
+
+    
+}
+.ostatne_produkty{
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+/*ostatné produkty*/
+.riadok1{
+    margin-top: 20px;
+    display: flex;
+    background-color: azure;
+    border: 3px solid black;
+    height: 310px;
+    
+}/*Niceboy ORYX K300X*/
+.niceboy_klavesnica{
+    width: 210px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .niceboy_klavesnica_foto{
+    height: 100px;
+    margin-left: 30px; 
+    margin-top: 30px;  
+}
+ .niceboy_klavesnica_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .niceboy_klavesnica_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black ;
+    
+}
+.niceboy_klavesnica:hover{
+    transform: scale(1.1);  
+}
+
+.niceboy_klavesnica:hover .niceboy_klavesnica_cena{
+    color: #b0081c;
+}
+/*PlayStation 4 Slim*/
+.ps4_slim{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .ps4_slim_foto{
+    height: 100px;
+    margin-left: 60px; 
+    margin-top: 30px;  
+}
+ .ps4_slim_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .ps4_slim_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.ps4_slim:hover{
+    transform: scale(1.1); 
+}
+
+.ps4_slim:hover .ps4_slim_cena{
+    color: #b0081c;
+}
+
+/*Asus ROG Strix G15*/
+.asus_notebook{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .asus_notebook_foto{
+    height: 100px;
+    margin-left: 30px; 
+    margin-top: 30px;  
+}
+ .asus_notebook_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .asus_notebook_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black ;
+    margin-bottom: 20px;
+}
+.asus_notebook:hover{
+    transform: scale(1.1);
+}
+.asus_notebook:hover .asus_notebook_cena{
+    color: #b0081c;
+}
+
+/*LG UltraGear 27GL83A*/
+.lg_monitor{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .lg_monitor_foto{
+    height: 100px;
+    margin-left: 60px; 
+    margin-top: 30px;  
+}
+ .lg_monitor_text{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 140px;
+}
+ .lg_monitor_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 31px;
+    color: black ;
+}
+.lg_monitor:hover{
+    transform: scale(1.1);
+}
+.lg_monitor:hover .lg_monitor_cena{
+    color: #b0081c;
+}
+/*Lenovo Legion Phone Duel*/
+.asus_smartfon{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .asus_smartfon_foto{
+    height: 100px;
+    margin-left: 50px; 
+    margin-top: 30px;  
+}
+ .asus_smartfon_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .asus_smartfon_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 31px;
+    color: black ;
+}
+.asus_smartfon:hover{
+    transform: scale(1.1);
+}
+.asus_smartfon:hover .asus_smartfon_cena{
+    color: #b0081c;
+}
+
+
+
+/*2 riadok*/
+.ostatne_nazov2{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: black;
+}
+.riadok2{
+    margin-top: 20px;
+    display: flex;
+    background-color: azure;
+    border: 3px solid black;
+    height: 310px;
+}
+
+/*Xiaomi Black Shark 3*/
+.xiaomi_3{
+    width: 210px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .xiaomi_3_foto{
+    height: 100px;
+    margin-left: 60px; 
+    margin-top: 30px;  
+}
+ .xiaomi_3_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .xiaomi_3_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black ;
+}
+.xiaomi_3:hover{
+    transform: scale(1.1);
+}
+.xiaomi_3:hover .xiaomi_3_cena{
+    color: #b0081c;
+}
+/*hyperX Alloy FPS Pro Blue Mechanical Gaming Keyboard*/
+.hyperx_alloy{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .hyperx_alloy_foto{
+    height: 100px;
+    margin-left: 10px; 
+    margin-top: 30px;  
+}
+ .hyperx_alloy_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .hyperx_alloy_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 31px;
+    color: black ;
+}
+.hyperx_alloy:hover{
+    transform: scale(1.1);
+}
+.hyperx_alloy:hover .hyperx_alloy_cena{
+    color: #b0081c;
+}
+/*Acer Nitro 5*/
+.Acer_nitro_notebook{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .Acer_nitro_notebook_foto{
+    height: 100px;
+    margin-left: 60px; 
+    margin-top: 30px;  
+}
+ .Acer_nitro_notebook_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .Acer_nitro_notebook_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black ;
+    margin-bottom: 20px;
+}
+.Acer_nitro_notebook:hover{
+    transform: scale(1.1);
+}
+.Acer_nitro_notebook:hover .Acer_nitro_notebook_cena{
+    color: #b0081c;
+}
+/*PlayStation 5*/
+.playstation_5{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .playstation_5_foto{
+    height: 100px;
+    margin-left: 60px; 
+    margin-top: 30px;  
+}
+ .playstation_5_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .playstation_5_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black ;
+    margin-bottom: 20px;
+}
+.playstation_5:hover{
+    transform: scale(1.1);
+}
+.playstation_5:hover .playstation_5_cena{
+    color: #b0081c;
+}
+/*Microsoft Xbox Series X*/
+.xbox_x{
+    width: 210px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .xbox_x_foto{
+    height: 100px;
+    margin-left: 50px; 
+    margin-top: 30px;  
+}
+ .xbox_x_text{
+    text-align: center;
+    margin-top: 30px;
+}
+ .xbox_x_cena{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 31px;
+    color: black ;
+    margin-bottom: 20px;
+}
+.xbox_x:hover{
+    transform: scale(1.1);
+}
+.xbox_x:hover .xbox_x_cena{
+    color: #b0081c;
+}
+
+
+
+/*päta*/
+.pata{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: 30px;
+    margin-top: 10px;
+}
+.copyright{
+    width: 20px;
+margin-top: -50px ;
+margin-left: 500px;
+}
+.facebook{
+    width: 20px;
+}
+.instagram{
+    width: 20px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+.twitter{
+    width: 20px;
+}
+.text{
+    margin-left: 530px;
+    margin-top: -25px;
+    
+}
