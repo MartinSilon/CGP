@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    src: url(../font/l_10646.ttf);
+}
+body{
+    background-color: #B3C5D7;
+    background-image: url(../images/pen-4337524.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    float: left;
+
+    margin: 20px;
+    margin-bottom: 15px;
+}
+
+
+.menu1:hover{
+    color:#ffd613 ;
+}
+.onas{
+    color: #ffd613;
+    position: relative;
+    top: -5;
+    font-size: 18px;
+}
+.onas:hover{
+    color: azure;
+}
+
+
+h1{
+    margin-left: 25px;
+    color: azure;
+    font-size: 50px;
+}
+
+.menu{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navigacne_menu {
+    width: 100%;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/menu_back.jpg); 
+}
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 2%;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.kontajner {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+   
+}
+.divkoo{
+    background-color: azure;
+    width: 800px;
+    height: 1860px;
+    position: relative;
+    left: 350;
+    padding-top: 10px;
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.slogan{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.vysvetlenie{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 750px;
+    text-align: center;
+}
+.fakturacne_udaje{
+    text-align: center;
+    margin-top: 50px;
+}
+h3{
+    font-size: 20px;
+}
+.kontakt{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.mapa{
+    margin-top: -322px;
+    margin-left: 60%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 320px;
+}
+.mapa2{
+    width: 250px;
+    height: 250px;
+    border: none;
+}
+.mapa_nazov{
+    margin-top: 10px;
+    text-align: center;
+}
+.fotka{
+    margin-left: 10%;
+    width: 250px;
+    border: 1px solid black;
+    height: 320px;
+}
+.meno{
+    text-align: center;
+    margin-top: 10px;
+}
+.trieda{
+    text-align: center;
+}
+.fotka1{
+    width: 250px;
+    height: 250px;
+}
+
+.field_kontakt{
+    border: 0px solid black;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 50px;
+}
+.kontaktne_udaje{
+    margin-top: -20px;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+.meno_pohlavie_vek{
+    margin-left: 20px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.meno_nadpis{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.priezvisko_nadpis{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.pohlavie{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.vek{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.email{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.a{
+    height: 35px;
+    width: 400px;
+    margin-left: 15px;
+}
+option{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.hodnotenie{
+    margin-top: -20px;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+
+.objavenie_div{
+    margin-left: 20px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.objavenie{
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+.select{
+    margin-left: 15px;
+    height: 35px;
+    width: 400px;
+}
+
+.pacisa_div{
+    margin-left: 20px;
+    margin: 10px;
+    line-height: 30px;
+    margin-top: 40px;
+    
+}
+.pacisa{
+    font-weight: normal;
+    margin-left: 20px;
+}
+input{
+    margin-left: 20px;
+}
+
+.dotazy{
+    margin-left: 30px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.komentar{
+    margin-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    width: 400px;
+
+}
+
+form{
+    width: 500px;
+    margin-left: 150px;
+    background-color: gainsboro;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.button_prihlasenie{
+    width: 400px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.button_prihlasenie:hover{
+    background-color: black;
+    color: white;
+    
+}
+.linky_nadpis{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.linky{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.link{
+    width: 210px;
+}
+
+
+a#link:link{
+    color: black;
+    text-decoration: none;
+}
+a#link:link:hover{
+    text-decoration: underline;
+}
+
+a#link:visited{
+    color: darkblue;
+}
+ul li{
+    list-style: none;
+}
+
+.link:active{
+    background-color: #ffd613;
+}
+.link:focus{
+    background-color: palevioletred;
+}
+.veego{
+    color: azure;
+}
+
+
+
+
+/*päta*/
+.pata{
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: 30px;
+}
+.copyright{
+    width: 20px;
+    margin-top: -50px ;
+    margin-left: 500px;
+}
+.facebook{
+    width: 20px;
+}
+.instagram{
+    width: 20px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+.twitter{
+    width: 20px;
+}
+.text{
+    margin-left: 530px;
+    margin-top: -25px;
+}
